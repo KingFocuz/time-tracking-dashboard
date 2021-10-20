@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body onload = "displayDaily()">
+
+<div class="nav-container">
+   <div class="image-container">
+     <div>
+       <img src="images/image-jeremy.png" alt="Jeremy's photo" class="image">
+     </div>
+ 
+     <div class="text-container"> 
+       <p style="opacity:0.5; font-weight:300;">Report for</p>
+       <h2 style="font-weight:400;">Jeremy Robson</h2>
+     </div>
+  
+  </div>
+  
+  <button id="daily" class="active">Daily</button>
+  
+  <button id="weekly">Weekly</button>
+  
+  <button id="monthly">Monthly</button>
+
+ </div>
+  
+ <div class="container">
+ 
+ <div class="work-container">
+  
+ <div class="work"> 
+ 
+ <div class="card">
+ <h3 class="title"></h3>
+ <h1 class="hours"></h1>
+ </div>
+ <div>
+  <span>•••</span>
+ <h4 class="previous"> </h4>
+  </div>
+
+  </div>
+  
+  </div>
+  
+ <div class="play-container"> 
+   <div class="play">
+     
+     <div class="card">
+  <h3 class="title"> </h3> 
+  <h1 class="hours"> </h1>
+ </div>
+  
+  <div>
+ <span>•••</span>
+ <h4 class="previous"> </h4>
+  </div>
+  
+   
+   </div>
+
+</div>
+
+ <div class="study-container"> 
+ 
+   <div class="study">
+  
+  <div class="card">
+ <h3 class="title"></h3>
+<h1 class="hours"> </h1>
+  </div> 
+  
+<div>  
+ <span>•••</span>
+ <h4 class="previous"> </h4>
+ </div> 
+  
+</div>
+
+</div>
+
+  <div class="exercise-container">
+   <div class="exercise">
+  
+  <div class="card">
+ <h3 class="title"> </h3>
+ <h1 class="hours"></h1>
+  </div>
+  
+  <div>
+ <span>•••</span>
+ <h4 class="previous"> </h4>
+  </div>
+
+  </div>
+  
+  </div>
+  
+
+  <div class="social-container">
+  
+  <div class="social">
+  
+ <div class="card"> 
+ <h3 class="title"> </h3>
+ <h1 class="hours"> </h1>
+  </div>
+  
+  <div>
+ <span>•••</span>
+ <h4 class="previous"> </h4> 
+  </div>
+  
+</div>
+
+</div>
+
+ <div class="selfcare-container">
+ <div class="self-care"> 
+  
+ <div class="card"> 
+ <h3 class="title"> </h3>
+<h1 class="hours"> </h1>
+ </div> 
+  
+  <div>
+<span>•••</span>
+<h4 class="previous"> </h4>
+  </div>
+
+</div>
+</div>
+  
+  </div>
+  
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.github.com/KingFocuz" target="_blank">Victor Effiong</a>.
+</footer>
+<script src = "App.js"></script>
+</body>
+</html>
